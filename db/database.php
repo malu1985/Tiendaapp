@@ -11,7 +11,7 @@ class Database
 
 class Conectar{
     public static function conexion(){
-        $conexion=new mysqli("localhost", "root", "", "preba");
+        $conexion=new mysqli("remotemysql", "KC7tralXh6", "QcvHIFQPRV", "KC7tralXh6");
         $conexion->query("SET NAMES 'utf8'");
         return $conexion;
     }
