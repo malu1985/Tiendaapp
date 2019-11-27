@@ -23,7 +23,7 @@
 
 	<body>
 		<div id="greeting-id"></div>
-	
+		<ul id="greeting-id"></ul>
 		
 		 <div class="container">
 			<div class="col-sm-10" style="width:600px; margin-left: 250px;margin-top: 50px">
