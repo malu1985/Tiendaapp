@@ -22,7 +22,7 @@
 </script>
 
 	<body>
-		<div class="greeting-id"></div>
+		<div id="greeting-id"></div>
 	
 		
 		 <div class="container">
