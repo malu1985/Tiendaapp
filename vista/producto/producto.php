@@ -41,7 +41,9 @@
 <script  src="assets/js/datatable.js">  
 
 </script>
-
+<script src="assets/js/rest.js">
+	
+</script>
 
 </html>
 
