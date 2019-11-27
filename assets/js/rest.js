@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $.ajax({
-url:"http://rest-service.guides.spring.io/greeting"
+url:"https://github.com/maxpower12/rest"
 }).then(function(data){
 $('.greeting-id').appen(data.id);
 $('.greeting-content').appen(data.content);
