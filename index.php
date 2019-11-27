@@ -22,7 +22,7 @@
 </script>
 
 	<body>
-	<p class="greeting-firts_name">The ID is </p>
+	<p class="greeting-id">The ID is </p>
 		</div>
 		 <div class="container">
 			<div class="col-sm-10" style="width:600px; margin-left: 250px;margin-top: 50px">
