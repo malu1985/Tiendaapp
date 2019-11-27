@@ -29,7 +29,7 @@ console.log(data);
 </script>
 
 	<body>
-	<div id="greeting-id">
+	<p class="greeting-id">The ID is </p>
 		</div>
 		 <div class="container">
 			<div class="col-sm-10" style="width:600px; margin-left: 250px;margin-top: 50px">
