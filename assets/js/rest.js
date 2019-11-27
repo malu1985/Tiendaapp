@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $.ajax({
-url:"https://maryluz.herokuapp.com/public/index.php/api/customers"
+url:"http://rest-service.guides.spring.io/greeting"
 }).then(function(data){
 $('.greeting-id').appen(data.id);
 $('.greeting-content').appen(data.content);
