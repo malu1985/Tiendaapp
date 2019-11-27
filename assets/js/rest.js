@@ -1,9 +1,9 @@
 $(document).ready(function(){
 $.ajax({
-url:"https://github.com/maxpower12/rest"
+url:"https://maryluz.herokuapp.com/public/index.php/api/customers"
 }).then(function(data){
 $('.greeting-id').appen(data.id);
-$('.greeting-content').appen(data.content);
+$('.greeting-content').appen(data.first_name);
 console.log(data);
 });
 });
