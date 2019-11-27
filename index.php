@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="shortcut icon" href="../assets/img/favicon.png" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
    
 			
@@ -67,7 +68,7 @@
 	</body>
 <script src="https://code.jquery.com/jquery-3.4.1.js">
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <script>
 $(document).ready(function(){
 $.ajax({
