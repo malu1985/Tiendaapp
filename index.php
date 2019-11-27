@@ -11,7 +11,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="assets//jquery/jquery.min.js"></script>
 
    
 			
