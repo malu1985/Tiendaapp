@@ -3,8 +3,8 @@
 
     <a class="btn btn-primary pull-right" href="?c=producto&a=Crud">Agregar</a>
 <br><br><br>
-
-<table class="table  table-striped  table-hover" id="tabla">
+<div id="greting-id">
+</div><table class="table  table-striped  table-hover" id="tabla">
     <thead>
         <tr>
         <th style="width:120px; background-color: #5DACCD; color:#fff">Id</th>
