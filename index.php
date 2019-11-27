@@ -12,20 +12,12 @@
 		<link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+<script src="assets/js/rest.js"></script>
    
 			
 	</head>
 <script>
-$(document).ready(function(){
-$.ajax({
-url:"https://maryluz.herokuapp.com/public/index.php/api/customers"
-}).then(function(data){
-$('.greeting-id').appen(data.id);
-$('.greeting-content').appen(data.content);
-console.log(data);
-});
-});
+
 </script>
 
 	<body>
