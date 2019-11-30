@@ -34,9 +34,8 @@ echo"<script type='text/javascript'>
 	$(document).ready(function() {
                           loadRest();
 });
-			<script src="../assets/js/rest.js"></script>
-
 	</script>
+		<script src="../assets/js/rest.js"></script>
          <script src="../plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
     <script src="../plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
           <style>
