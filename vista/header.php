@@ -29,10 +29,12 @@ echo"<script type='text/javascript'>
         
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
 		<script type="text/javascript">
 	$(document).ready(function() {
                           loadRest();
 });
+			<script src="../assets/js/rest.js"></script>
 
 	</script>
          <script src="../plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
