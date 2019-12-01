@@ -1,6 +1,6 @@
 <h1 class="page-header">Productos </h1>
 	
-    <a class="btn btn-primary pull-right" href="?c=producto&a=Crud">Agregar</a>
+   <a class="btn btn-info btn-lg pull-right" href="?c=producto&a=Crud"><span class="glyphicon glyphicon-plus-sign"></span></a>
 <br><br><br>
 
 <table class="table  table-striped  table-hover" id="tabla">
@@ -27,10 +27,10 @@
             <td><?php echo $r->id_categoria; ?></td>
             <td><?php echo $r->id_proveedor; ?></td>
             <td>
-                <a  class="btn btn-warning" href="?c=producto&a=Crud&id_producto=<?php echo $r->id_producto; ?>">Editar</a>
+                <a  class="btn btn-warning" href="?c=producto&a=Crud&id_producto=<?php echo $r->id_producto; ?>"><span class="glyphicon glyphicon-plus-sign"></span></a>
             </td>
             <td>
-                <a  class="btn btn-danger" onclick="javascript:return confirm('¿Seguro de eliminar este registro?');" href="?c=producto&a=Eliminar&id_producto=<?php echo $r->id_producto; ?>">Eliminar</a>
+                <a  class="btn btn-danger" onclick="javascript:return confirm('¿Seguro de eliminar este registro?');" href="?c=producto&a=Eliminar&id_producto=<?php echo $r->id_producto; ?>"><span class="glyphicon glyphicon-trash"></span></a>
             </td>
         </tr>
     <?php endforeach; ?>
