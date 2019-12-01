@@ -13,8 +13,6 @@
             <th style=" background-color: #5DACCD; color:#fff">stock</th>
             <th style="width:120px; background-color: #5DACCD; color:#fff">id_categoria</th>            
 			<th style="width:120px; background-color: #5DACCD; color:#fff">id_proveedor</th>
-            <th style="width:60px; background-color: #5DACCD; color:#fff"></th>
-            <th style="width:60px; background-color: #5DACCD; color:#fff"></th>
         </tr>
     </thead>
     <tbody>
