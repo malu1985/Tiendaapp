@@ -14,7 +14,7 @@
 
 	<body>
 		 <div align="center"class="container">
-			<div  style="width:600px; margin-top: 5%">
+			<div  style="width:100%; margin-top: 5%">
 				
 				<div class="jumbotron boxlogin">
 					<div class="form-group" style="margin-top:-30px;">
