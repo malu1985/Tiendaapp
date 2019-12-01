@@ -19,16 +19,19 @@ try
                          for (var i =0;i<infod1.length;i++)
                            {
                      
-                  videoIndex++;
+                  
                   var customerid = infod1[i].id_producto;
                   var name = infod1[i].nombre;
 				var precio = infod1[i].precio; 
 				var stock = infod1[i].stock;				
-                                                                                            //esta es la forma en que guardas cada uno de los atributos que te da la respuesta JSON, por ejemplo en la variable  title guardo infod1 [i].title;
+                var id_categoria = infod1[i].id_categoria;				                                //esta es la forma en que guardas cada uno de los atributos que te da la respuesta JSON, por ejemplo en la variable  title guardo infod1 [i].title;
                                                                                                                                                     //recuerda que es un ciclo por eso la "i"   
                   
                   dur="0";
-                    $(".video-list").append((customerid,name,stock));         //este método es que el coloca el valor traído desde el servicio rest en la vista, échale ojo a la función createItem (abajo paso 3)
+                       
+					  $(".video-list").append(createItem(customerid,name,precio,stock,id_categoria),false);
+					  
+					  //este método es que el coloca el valor traído desde el servicio rest en la vista, échale ojo a la función createItem (abajo paso 3)
                                                                                                                                                     // videolist es un atributo html, ubicado justamente en tu html :)
                   }  
                }
@@ -45,6 +48,14 @@ try
            console(" There is a mistake - getting the web service " + ex);
          }
 
+}
+function createItem(id_producto,nombre,precio,stock,id_categoria)
+{
+    var item = '<tr><th class="table">'+id_producto+'</th><th class="table">'+precio+'</th><th class="table">'+nombre+'</th>'
+					
+                '</tr>'
+				
+    return item;
 }
 
 
