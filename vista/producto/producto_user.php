@@ -47,6 +47,7 @@
 		
 </table>
 </body>
-<script  src="../assets/js/datatable.js"></script>
+<script  src="../assets/js/datatable.js">
+</script>
 </html>
 
