@@ -16,21 +16,21 @@
     
     <div class="form-group">
         <label>precio</label>
-        <input type="text" name="precio" value="<?php echo $producto->precio; ?>" class="form-control" placeholder="Ingrese el precio" required>
+        <input type="number" name="precio" value="<?php echo $producto->precio; ?>" class="form-control" placeholder="Ingrese el precio" required>
     </div>
     
     <div class="form-group">
         <label>stock</label>
-        <input type="text" name="stock" value="<?php echo $producto->stock; ?>" class="form-control" placeholder="Ingrese cantidad disponible" required>
+        <input type="number" name="stock" value="<?php echo $producto->stock; ?>" class="form-control" placeholder="Ingrese cantidad disponible" required>
     </div>
     
     <div class="form-group">
         <label>Id_categoria</label>
-        <input type="text" name="id_categoria" value="<?php echo $producto->id_categoria; ?>" class="form-control" placeholder="Ingrese la categoria" required>
+        <input type="number" name="id_categoria" value="<?php echo $producto->id_categoria; ?>" class="form-control" placeholder="Ingrese la categoria" required>
     </div>
      <div class="form-group">
         <label>id_proveedor</label>
-        <input type="text" name="id_proveedor" value="<?php echo $producto->id_proveedor; ?>" class="form-control" placeholder="Ingrese el provedor" required>
+        <input type="number" name="id_proveedor" value="<?php echo $producto->id_proveedor; ?>" class="form-control" placeholder="Ingrese el provedor" required>
     </div>
         
     
