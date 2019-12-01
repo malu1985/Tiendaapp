@@ -7,7 +7,7 @@
 		</thead>
 	<tbody>
 	<tr>
-<td  class="video-list table-list active" data-name="Search"></td>
+<td  class="video-list"></td>
 </tr>
 		</tbody>
 </table>
