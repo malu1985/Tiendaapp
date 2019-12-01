@@ -51,9 +51,11 @@ try
 }
 function createItem(id_producto,nombre,precio,stock,id_categoria)
 {
-    var item = '<tr class="table  table-striped  table-hover"><th>'+id_producto+'</th><th>'+precio+'</th><th>'+nombre+'</th>'
-					
+    var item = '<tr class="video" id_producto="'+id_producto+'" data-title="'+nombre+'">'+
+                    '<td class="table-image">'+'<div>'+stock+'</div>'+'</td>'+
+                    '<td class="table-title">'+id_categoria	+'</td>'
                 '</tr>'
+    
 				
     return item;
 }
