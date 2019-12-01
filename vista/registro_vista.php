@@ -14,11 +14,9 @@
 
 	<body>
 		 <div align="center"class="container">
-			<div  style="width:100%; margin-top: 5%">
-				
 				<div class="jumbotron boxlogin">
-					<div class="form-group" style="margin-top:-30px;">
-							<h1 style="margin-left: 90px;">REGISTRO</h1>
+					<div class="form-group" align="center">
+							<h1 >REGISTRO</h1>
 					</div>
 					<hr>
 					</hr>
@@ -69,15 +67,15 @@
 							</div>
 							</div>
 							<div class="form-group">
-								<input type="submit" class="btn btn-success" value="Registrar" style="width:430px;">
+								<input type="submit" class="btn btn-success" value="Registrar">
 							</div>
 							
 						<div align="left" class="form-group">
-							<a href="../index.php" >Iniciar Sesión</a>
+							<a href="..index.php" >Iniciar Sesión</a>
 						</div>
 					</form>
 				</div>
-			</div>
+			
 		</div>
 	</body>
 </html>
