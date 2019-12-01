@@ -1,7 +1,7 @@
 <h1 class="page-header">Productos </h1>
 
 
-    <a class="btn btn-primary pull-right" href="?c=producto&a=Cruduser">Agregar</a>
+    <a class="btn btn-info btn-lg pull-right" href="?c=producto&a=Cruduser"><span class="glyphicon glyphicon-plus-sign"></span></a>
 <br><br><br>
 
 <table class="table  table-striped  table-hover" id="tabla">
