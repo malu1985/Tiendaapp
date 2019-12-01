@@ -25,10 +25,9 @@ try
 				var descripcion = infod1[i].descripcion; 
 						
                 				                                //esta es la forma en que guardas cada uno de los atributos que te da la respuesta JSON, por ejemplo en la variable  title guardo infod1 [i].title;
-                                                                                                                                                    //recuerda que es un ciclo por eso la "i"    
-                
-                       
-					  $(".video-list").append(createItem(id_categoria,nombre,descripcion),false);
+			$(".id_cat").append(categoria(id_categoria));
+			$(".nombre_cat").append(categoria2(nombre));
+			 $(".desc_cat").append(categoria3(descripcion));
 					  
 					  //este método es que el coloca el valor traído desde el servicio rest en la vista, échale ojo a la función createItem (abajo paso 3)
                                                                                                                                                     // videolist es un atributo html, ubicado justamente en tu html :)
@@ -48,9 +47,23 @@ try
          }
 
 }
-function createItem(id_categoria,nombre,descripcion)
+function categoria(id_categoria)
 {
-     var item = '<tr><th>'+id_categoria+'</th><td>'+nombre+'</td><td>'+descripcion+'</td></tr>'
+     var item = '<tr><th>'+id_categoria+'</th></tr>'
+    
+				
+    return item;
+}
+function categoria2(nombre)
+{
+     var item = '<tr><th>'+nombre+'</th></tr>'
+    
+				
+    return item;
+}
+function categoria3(descripcion)
+{
+     var item = '<tr><th>'+descripcion+'</th></tr>'
     
 				
     return item;
