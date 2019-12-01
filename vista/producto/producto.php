@@ -1,8 +1,15 @@
 <h1 class="page-header">Productos </h1>
 	<table class="table  table-striped  table-hover">
+		<thead>
+			<tr><th style="width:120px; background-color: #5DACCD; color:#fff">Id</th>
+            <th style="width:180px; background-color: #5DACCD; color:#fff">Nombre</th>
+			</tr>
+		</thead>
+	<tbody>
 	<tr>
 <td  class="video-list table-list active" data-name="Search"></td>
 </tr>
+		</tbody>
 </table>
     <a class="btn btn-primary pull-right" href="?c=producto&a=Crud">Agregar</a>
 <br><br><br>
