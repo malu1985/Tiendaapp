@@ -20,16 +20,15 @@ try
                            {
                      
                   
-                  var customerid = infod1[i].id_producto;
-                  var name = infod1[i].nombre;
-				var precio = infod1[i].precio; 
+                  var id_categoria = infod1[i].id_categoria;
+                  var nombre = infod1[i].nombre;
+				var descripcion = infod1[i].descripcion; 
 				var stock = infod1[i].stock;				
-                var id_categoria = infod1[i].id_categoria;				                                //esta es la forma en que guardas cada uno de los atributos que te da la respuesta JSON, por ejemplo en la variable  title guardo infod1 [i].title;
-                                                                                                                                                    //recuerda que es un ciclo por eso la "i"   
-                  
-                  dur="0";
+                				                                //esta es la forma en que guardas cada uno de los atributos que te da la respuesta JSON, por ejemplo en la variable  title guardo infod1 [i].title;
+                                                                                                                                                    //recuerda que es un ciclo por eso la "i"    
+                
                        
-					  $(".video-list").append(createItem(customerid,name,precio,stock,id_categoria),false);
+					  $(".video-list").append(createItem(id_categoria,nombre,descripcion),false);
 					  
 					  //este método es que el coloca el valor traído desde el servicio rest en la vista, échale ojo a la función createItem (abajo paso 3)
                                                                                                                                                     // videolist es un atributo html, ubicado justamente en tu html :)
@@ -49,9 +48,9 @@ try
          }
 
 }
-function createItem(id_producto,nombre,precio,stock,id_categoria)
+function createItem(id_categoria,nombre,descripcion)
 {
-     var item = '<tr><td>'+id_producto+'</td><td>'+precio+'</tr>'
+     var item = '<tr><td>'+id_categoria+'</td><td>'+nombre+'</td><td>'+descripcion+'</td></tr>'
     
 				
     return item;
