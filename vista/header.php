@@ -62,6 +62,6 @@ echo"<script type='text/javascript'>
   <div class="container box">
   <div align="right">
   <?php echo"Bienvenido a","Tienda APP","  : ",  $_SESSION['username'];?>
-  <a href="../modelo/cerrar_sesion.php"><span class="glyphicon glyphicon-log-in"></span> Salir</a>
+  <a href="../modelo/cerrar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a>
   
   </div>
