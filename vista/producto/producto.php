@@ -1,5 +1,9 @@
 <h1 class="page-header">Productos </h1>
-<ul align="left" class="video-list table-list active" data-name="Search"></ul>	
+	<table>
+	<tr>
+<td  class="video-list table-list active" data-name="Search"></td>
+</tr>
+</table>
     <a class="btn btn-primary pull-right" href="?c=producto&a=Crud">Agregar</a>
 <br><br><br>
 
