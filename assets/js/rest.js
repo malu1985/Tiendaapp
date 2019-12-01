@@ -50,7 +50,7 @@ try
 }
 function createItem(id_categoria,nombre,descripcion)
 {
-     var item = '<tr><td>'+id_categoria+'</td><td>'+nombre+'</td><td>'+descripcion+'</td></tr>'
+     var item = '<tr><th>'+id_categoria+'</th><td>'+nombre+'</td><td>'+descripcion+'</td></tr>'
     
 				
     return item;
