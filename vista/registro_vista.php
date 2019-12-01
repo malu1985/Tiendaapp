@@ -20,7 +20,7 @@
 					</div>
 					<hr>
 					</hr>
-					<form class="form-horizontal" method="POST" name="flogin" id="flogin"  action="../controlador/registro_controlador.php" style="margin-left: 50px; ">
+					<form class="form-horizontal" method="POST" name="flogin" id="flogin"  action="../controlador/registro_controlador.php" >
 					<div align="left">
 						<label>Ingrese Cedula:</label>
 							<div class="form-group input-group">
