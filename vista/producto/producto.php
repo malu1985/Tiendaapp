@@ -1,11 +1,10 @@
 <h1 class="page-header">Productos </h1>
-<ul  class="video-list table-list active" data-name="Search"></ul>
-
 
     <a class="btn btn-primary pull-right" href="?c=producto&a=Crud">Agregar</a>
 <br><br><br>
-<div id="greting-id">
+
 </div><table class="table  table-striped  table-hover" id="tabla">
+<ul  class="video-list table-list active" data-name="Search"></ul>	
     <thead>
         <tr>
         <th style="width:120px; background-color: #5DACCD; color:#fff">Id</th>
