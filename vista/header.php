@@ -25,9 +25,12 @@ echo"<script type='text/javascript'>
         <link rel="stylesheet" href="../assets/css/bootstrap-theme.min.css" />
         <link rel="stylesheet" href="../assets/js/jquery-ui/jquery-ui.min.css" />
         <link rel="stylesheet" href="../assets/css/style.css" />
-        <link href="../plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
-        
+        <link href="..assets/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="../assets/plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
+    	<script src="../assets/plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="../assets/js/rest.js"></script>
 		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		
 		<script type="text/javascript">
@@ -35,9 +38,7 @@ echo"<script type='text/javascript'>
                           loadRest();
 });
 	</script>
-		<script src="../assets/js/rest.js"></script>
-         <script src="../plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
-    <script src="../plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
+		
           <style>
    body
    {
