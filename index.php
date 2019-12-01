@@ -49,7 +49,7 @@
 							</div>
 							
 							<div class="form-group">
-								<input type="submit" class="btn btn-success" value="ingresar" style="width:430px;">
+								<input type="submit" class="btn btn-success" value="ingresar">
 							</div>
 							
 						<div align="left" class="form-group">
