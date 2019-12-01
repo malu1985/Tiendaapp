@@ -71,7 +71,7 @@
 							</div>
 							
 						<div align="left" class="form-group">
-							<a href="..index.php" >Iniciar Sesión</a>
+							<a href="../index.php" >Iniciar Sesión</a>
 						</div>
 					</form>
 				</div>
