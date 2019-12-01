@@ -1,12 +1,16 @@
 <h1 class="page-header">Productos </h1>
 	<table class="table  table-striped  table-hover">
 		<thead>	
-            <th style="width:180px; background-color: #5DACCD; color:#fff">Categorias</th>
+            <th style="width:180px; background-color: #5DACCD; color:#fff">Id Categoria</th>
+			<th style="width:180px; background-color: #5DACCD; color:#fff">Nombre</th>
+			<th style="width:180px; background-color: #5DACCD; color:#fff">Descripcion</th>
 			</tr>
 		</thead>
 	
 	<tr>
-<td  class="video-list"></td>
+<td  class="id_cat"></td>
+<td  class="nombre_cat"></td>
+<td  class="desc_cat"></td>
 </tr>
 		
 </table>
