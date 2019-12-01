@@ -36,6 +36,7 @@
     <?php endforeach; ?>
     </tbody>
 </table>
+<p>Categorias de los productos traidos atraves de REST</p>
 <table class="table  table-striped  table-hover">
 		<thead>	
             <th style="width:180px; background-color: #5DACCD; color:#fff">Id Categoria</th>
