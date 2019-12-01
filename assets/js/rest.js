@@ -23,7 +23,7 @@ try
                   var id_categoria = infod1[i].id_categoria;
                   var nombre = infod1[i].nombre;
 				var descripcion = infod1[i].descripcion; 
-				var stock = infod1[i].stock;				
+						
                 				                                //esta es la forma en que guardas cada uno de los atributos que te da la respuesta JSON, por ejemplo en la variable  title guardo infod1 [i].title;
                                                                                                                                                     //recuerda que es un ciclo por eso la "i"    
                 
