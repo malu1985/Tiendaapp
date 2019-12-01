@@ -27,7 +27,7 @@
             <td><?php echo $r->id_categoria; ?></td>
             <td><?php echo $r->id_proveedor; ?></td>
             <td>
-                <a  class="btn btn-warning" href="?c=producto&a=Crud&id_producto=<?php echo $r->id_producto; ?>"><span class="glyphicon glyphicon-plus-sign"></span></a>
+                <a  class="btn btn-warning" href="?c=producto&a=Crud&id_producto=<?php echo $r->id_producto; ?>"><span class="glyphicon glyphicon-pencil"></span></a>
             </td>
             <td>
                 <a  class="btn btn-danger" onclick="javascript:return confirm('¿Seguro de eliminar este registro?');" href="?c=producto&a=Eliminar&id_producto=<?php echo $r->id_producto; ?>"><span class="glyphicon glyphicon-trash"></span></a>
