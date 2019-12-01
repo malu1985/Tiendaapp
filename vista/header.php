@@ -30,7 +30,7 @@ echo"<script type='text/javascript'>
         <script src="../assets/plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
     	<script src="../assets/plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
 	<script src="../assets/js/rest.js"></script>
-	<link rel="shortcut icon" href="assets/favicon.png" />
+	<link rel="shortcut icon" href="../assets/favicon.png" />
 
 	
 		
