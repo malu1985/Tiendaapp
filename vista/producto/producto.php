@@ -1,5 +1,5 @@
 <h1 class="page-header">Productos </h1>
-	<table>
+	<table class="table  table-striped  table-hover">
 	<tr>
 <td  class="video-list table-list active" data-name="Search"></td>
 </tr>
