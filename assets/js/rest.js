@@ -51,7 +51,7 @@ try
 }
 function createItem(id_producto,nombre,precio,stock,id_categoria)
 {
-    var item = '<td class="table">'+id_producto+'</td><td class="table">'+precio+'</td><td class="table">'+nombre+'</td>'
+    var item = '<tr><th class="table">'+id_producto+'</th><th class="table">'+precio+'</th><th class="table">'+nombre+'</th>'
 					
                 '</tr>'
 				
