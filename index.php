@@ -28,7 +28,7 @@
 							<h1 >REGISTRO</h1>
 					</div>
 					
-					<form class="form-horizontal" method="POST" name="flogin" id="flogin"  action="../controlador/registro_controlador.php">
+					<form class="form-horizontal" method="POST" name="flogin" id="flogin"  action="../controlador/login.php">
 					<div align="left">
 						<label>Nombre de Usuario:</label>
 						</div>
