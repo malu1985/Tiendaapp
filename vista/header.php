@@ -29,7 +29,7 @@ echo"<script type='text/javascript'>
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
         <script src="../assets/plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
     	<script src="../assets/plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
-        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src="../assets/js/rest.js"></script>
 		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		
