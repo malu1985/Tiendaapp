@@ -21,14 +21,14 @@
 	<body>
 	
 		 <div align="center"class="container">
-			<div  style="width:600px; margin-top: 5%">
+			
 				
 				<div class="jumbotron boxlogin">
-					<div class="form-group" style="margin-top:-30px;">
-							<h1 style="margin-left: 90px;">LOGIN TIENDAPP</h1>
+					<div class="form-group" align="center">
+							<h1 >REGISTRO</h1>
 					</div>
 					
-					<form class="form-horizontal" action= "controlador/login.php "method="POST" name="flogin" id="flogin" style="margin-left: 50px;">
+					<form class="form-horizontal" method="POST" name="flogin" id="flogin"  action="../controlador/registro_controlador.php">
 					<div align="left">
 						<label>Nombre de Usuario:</label>
 						</div>
@@ -57,7 +57,7 @@
 						</div>
 					</form>
 				</div>
-			</div>
+			
 		</div>
 	</body>
 </html>
