@@ -26,7 +26,7 @@
 				
 				<div class="jumbotron boxlogin">
 					<div class="form-group" align="center">
-							<h1 >REGISTRO</h1>
+							<h1 >INICIAR SESIÓN</h1>
 					</div>
 					
 					<form class="form-horizontal" method="POST" name="flogin" id="flogin"  action="../controlador/login.php">
