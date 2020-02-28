@@ -3,7 +3,7 @@ class Database
 {
     public static function StartUp()
     {
-        $pdo = new PDO('mysql:host=remotemysql.com;dbname=3s9HFMl2H9;charset=utf8', '3s9HFMl2H9', '3s9HFMl2H9');
+        $pdo = new PDO('mysql:host=remotemysql.com;dbname=3s9HFMl2H9;charset=utf8', '3s9HFMl2H9', 'OhcPp5faBv');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);	
         return $pdo;
     }
@@ -11,7 +11,7 @@ class Database
 
 class Conectar{
     public static function conexion(){
-        $conexion=new mysqli("remotemysql.com", "3s9HFMl2H9", "rCG7KavbHL", "3s9HFMl2H9");
+        $conexion=new mysqli("remotemysql.com", "3s9HFMl2H9", "OhcPp5faBv", "3s9HFMl2H9");
         $conexion->query("SET NAMES 'utf8'");
         return $conexion;
     }
