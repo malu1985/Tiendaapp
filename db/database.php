@@ -3,7 +3,7 @@ class Database
 {
     public static function StartUp()
     {
-        $pdo = new PDO('mysql:host=remotemysql.com;dbname=b10_25187440_1;charset=utf8', 'b10_25187440_1', 'rCG7KavbHL');
+        $pdo = new PDO('mysql:host=remotemysql.com;dbname=3s9HFMl2H9;charset=utf8', 'b10_25187440_1', '3s9HFMl2H9');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);	
         return $pdo;
     }
