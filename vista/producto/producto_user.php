@@ -7,7 +7,11 @@
 <table class="table  table-striped  table-hover" id="tabla">
     <thead>
         <tr>
-        <input class="form" value="busca cliente">
+		<h3>Busca cliente</h3>
+        <input class="form" value="">
+		<h3>Fecha</h3>
+		<input class="form" value="">
+		<button class="button">
         </tr>
     </thead>
     <tbody>
