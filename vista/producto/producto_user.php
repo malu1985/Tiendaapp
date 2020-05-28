@@ -7,7 +7,7 @@
 <table class="table  table-striped  table-hover" id="tabla">
     <thead>
         <tr>
-        
+        <input class="form" value="busca cliente">
         </tr>
     </thead>
     <tbody>
