@@ -11,7 +11,7 @@
         <input class="form" value="">
 		<h3>Fecha</h3>
 		<input class="form" value="">
-		<button class="button">
+		<a class="btn btn-info btn-lg pull-right" href="vista_productouser.php"><span class="glyphicon glyphicon-search"></span></a>
         </tr>
     </thead>
     <tbody>
