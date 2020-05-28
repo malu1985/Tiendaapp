@@ -7,12 +7,7 @@
 <table class="table  table-striped  table-hover" id="tabla">
     <thead>
         <tr>
-        <th style="width:120px; background-color: #5DACCD; color:#fff">Id</th>
-            <th style="width:180px; background-color: #5DACCD; color:#fff">Nombre</th>
-            <th style=" background-color: #5DACCD; color:#fff">precio</th>
-            <th style=" background-color: #5DACCD; color:#fff">stock</th>
-            <th style="width:120px; background-color: #5DACCD; color:#fff">id_categoria</th>            
-			<th style="width:120px; background-color: #5DACCD; color:#fff">id_proveedor</th>
+        
         </tr>
     </thead>
     <tbody>
