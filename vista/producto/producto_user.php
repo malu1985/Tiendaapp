@@ -18,12 +18,7 @@
     <tbody>
     <?php foreach($this->model->Listar() as $r): ?>
         <tr>
-		<td><?php echo $r->id_producto; ?></td>
-         <td><?php echo $r->nombre; ?></td>
-            <td><?php echo $r->precio; ?></td>
-            <td><?php echo $r->stock; ?></td>
-            <td><?php echo $r->id_categoria; ?></td>
-            <td><?php echo $r->id_proveedor; ?></td>
+		
 
         </tr>
     <?php endforeach; ?>
