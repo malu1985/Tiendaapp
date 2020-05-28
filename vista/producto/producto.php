@@ -1,7 +1,7 @@
 <h1 class="page-header">Productos </h1>
 	
    <a class="btn btn-info btn-lg pull-right" href="?c=producto&a=Crud"><span class="glyphicon glyphicon-plus-sign"></span></a>
-<a class="btn btn-info btn-lg pull-right" href="?c=producto&a=Crud"><span class="glyphicon glyphicon-list-alt"></span></a>
+<a class="btn btn-info btn-lg pull-right" href="producto_user.php"><span class="glyphicon glyphicon-list-alt"></span></a>
 <br><br><br>
 
 <table class="table  table-striped  table-hover" id="tabla">
